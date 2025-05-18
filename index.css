@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Underdog&display=swap');
+
+.underdog-regular {
+  font-family: "Underdog", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: "Ubuntu";
+}
+
+::-webkit-scrollbar {
+    background-color: #1e1e1e;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2b2b2b;
+    border-radius: none;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+header {
+    width: calc(100%);
+    height: fit-content;
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    margin: 0px 50px 0px 50px;
+    width: fit-content;
+    height: fit-content;
+}
+
+header nav p {
+    color: #f0f0f0;
+}
+
+header nav a {
+    margin: 0px 10px;
+    color: #999999;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: #f0f0f0;
+}
+
+#container {
+    width: calc(100%);
+    min-height: calc(85vh);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container h1 {
+    margin: 0px 0px 50px 0px;
+    font-size: 64px;
+    font-weight: 600;
+    color: #8e89f6;
+    font-family: "Underdog";
+    cursor: pointer;
+}
+
+#searchbar-wrapper {
+    margin: 0px 0px 20px 0px;
+    padding: 0px 20px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #2b2b2b;
+}
+
+.material-symbols-outlined {
+    color: #828282;
+}
+
+#searchbar {
+    padding: 15px;
+    width: 500px;
+    height: fit-content;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #f0f0f0;
+    background-color: transparent;
+}
+
+
+#todo-list-section {
+    margin: 0px 0px 50px 0px;
+    padding: 10px 10px;
+    width: 545px;
+    height: fit-content;
+    border-radius: 10px;
+    color: #f0f0f0;
+    background-color: #2b2b2b;
+}
+
+#todo-list {
+    margin: 0px 0px 0px 8px;
+}
+
+#todo-list li {
+    margin: 15px 0px;
+    list-style: none;
+}
+
+#todo-list-input {
+    margin: 10px 0px 0px 0px;
+    padding: 10px 20px;
+    width: calc(100% - 40px);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+#todo-list-section p {
+    margin: 10px 0px 0px 8px;
+    font-size: 12px;
+    color: #515151;
+}
